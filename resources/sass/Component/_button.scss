@@ -1,0 +1,14 @@
+.btn-download {
+    @include button (
+        $fs-1,
+        $fw-bold,
+        $color-orange,
+        $color-gray-1,
+        $color-gray-1,
+        $border-radius-1,
+        $pd-0,
+        $pd-1,
+        $color-orange,
+        $color-orange,
+    );
+}   

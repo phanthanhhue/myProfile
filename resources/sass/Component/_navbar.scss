@@ -1,0 +1,25 @@
+.nav {
+    margin-left: $mg-2;
+    .nav-item {
+        .nav-link {
+            text-transform: uppercase;
+            font-weight: $fw-bold-1;
+            color: $color-orange;
+            padding: $pd-0 $pd-1;
+            border: 3px solid transparent;
+            &:hover{
+                background-color: $color-orange;
+                border: 3px solid $color-orange;
+                color: $color-black-0;
+                border-radius: $border-radius-1;
+            }
+        }
+        .active {
+            background-color: $color-orange;
+            border: 3px solid $color-orange;
+            color: $color-black-0;
+            border-radius: $border-radius-1;
+        }
+    }
+}
+

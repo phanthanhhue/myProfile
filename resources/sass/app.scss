@@ -1,14 +1,16 @@
+@import 'Base/reset';
 
-// Fonts
-@import url('https://fonts.googleapis.com/css?family=Nunito');
 
-// Variables
-@import 'variables';
+@import 'Helper/variables';
+@import 'Helper/mixin';
+@import 'Helper/extend';
+@import 'Helper/function';
 
-// Bootstrap
-@import '~bootstrap/scss/bootstrap';
+@import 'Layout/header';
+@import 'Layout/footer';
 
-.navbar-laravel {
-  background-color: #fff;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
-}
+@import 'Page/Home/index';
+
+@import 'Component/button';
+@import 'Component/navbar';
+@import 'Component/title';

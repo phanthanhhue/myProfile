@@ -1,0 +1,39 @@
+.content {
+    .avatar {
+        margin-top: $mg-4;
+        background-image: url('https://res.cloudinary.com/dxzguyvzh/image/upload/v1554644331/hue.jpg');
+        background-size: cover;
+        height: 380px;
+        background-repeat: no-repeat;
+        border-radius: 50%;
+    }
+    .row {
+        padding-bottom: $pd-3;
+    }
+    .contact-info {
+        padding-bottom: $pd-2;
+        .fa {
+            font-size: $fs-4;
+            color: $color-orange;
+            padding-right: $pd-1;
+        }
+        span {
+            color: $color-orange;
+            font-size: $fs-2;
+        }
+    }
+    .my-project {
+        ul {
+            li {
+                list-style: none;
+                a {
+                    color: $color-black-0;
+                    &:hover {
+                        text-decoration: none;
+                        color: $color-orange;
+                    }
+                }
+            }
+        }
+    }
+}

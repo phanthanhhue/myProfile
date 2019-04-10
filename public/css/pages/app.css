@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: #F7F8FA;
+  outline: none;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+}
+
+.footer .fa {
+  font-size: 36px;
+  padding-right: 2rem;
+  color: #f17704;
+}
+
+.content .avatar {
+  margin-top: 30px;
+  background-image: url("https://res.cloudinary.com/dxzguyvzh/image/upload/v1554644331/hue.jpg");
+  background-size: cover;
+  height: 380px;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+}
+
+.content .row {
+  padding-bottom: 50px;
+}
+
+.content .contact-info {
+  padding-bottom: 40px;
+}
+
+.content .contact-info .fa {
+  font-size: 36px;
+  color: #f17704;
+  padding-right: 20px;
+}
+
+.content .contact-info span {
+  color: #f17704;
+  font-size: 24px;
+}
+
+.content .my-project ul li {
+  list-style: none;
+}
+
+.content .my-project ul li a {
+  color: #29303b;
+}
+
+.content .my-project ul li a:hover {
+  text-decoration: none;
+  color: #f17704;
+}
+
+.btn-download {
+  font-size: 20px;
+  font-weight: 900;
+  color: #f17704;
+  background-color: rgba(20, 23, 28, 0.05);
+  border: 3px solid rgba(20, 23, 28, 0.05);
+  border-radius: 10px;
+  padding: 10px 20px;
+}
+
+.btn-download:hover {
+  background-color: #f17704;
+  border: 3px solid #f17704;
+}
+
+.nav {
+  margin-left: 15px;
+}
+
+.nav .nav-item .nav-link {
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #f17704;
+  padding: 10px 20px;
+  border: 3px solid transparent;
+}
+
+.nav .nav-item .nav-link:hover {
+  background-color: #f17704;
+  border: 3px solid #f17704;
+  color: #29303b;
+  border-radius: 10px;
+}
+
+.nav .nav-item .active {
+  background-color: #f17704;
+  border: 3px solid #f17704;
+  color: #29303b;
+  border-radius: 10px;
+}
+
+.content .name {
+  color: #f17704;
+  font-weight: 900;
+  padding: 40px;
+}
+
+.content .job-title {
+  color: #f17704;
+  font-size: 20px;
+  padding-bottom: 40px;
+}
+
+.content .item-title {
+  color: #f17704;
+  font-size: 24px;
+  font-weight: 700;
+}
+

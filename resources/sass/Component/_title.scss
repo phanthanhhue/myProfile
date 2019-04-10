@@ -1,0 +1,17 @@
+.content {
+    .name {
+        color: $color-orange;
+        font-weight: $fw-bold;
+        padding: $pd-2;
+    }
+    .job-title {
+        color: $color-orange;
+        font-size: $fs-1;
+        padding-bottom: $pd-2;
+    }
+    .item-title {
+        color: $color-orange;
+        font-size: $fs-2;
+        font-weight: $fw-bold-1;
+    }
+}
